@@ -1,0 +1,7 @@
+<?php if($_GET['errormsg']){
+												error_reporting(0);
+
+												echo $_GET['errormsg'];
+											}
+?>
+<?php include(controller.php); ?>
